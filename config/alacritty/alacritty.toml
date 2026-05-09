@@ -1,0 +1,33 @@
+general.import = [
+  # uncomment the flavour you want below:
+  "~/.config/alacritty/gruvbox.toml"
+]
+
+[font]
+size = 10.0
+
+[font.bold]
+family = "JetBrains Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrains Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "JetBrains Mono"
+style = "Bold Italic"
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Bold"
+
+[window.padding]
+x = 15
+y = 15
+
+[cursor]
+blink_interval = 550
+[cursor.style]
+shape = "Beam"
+blinking = "Always"

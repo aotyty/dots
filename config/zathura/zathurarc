@@ -1,0 +1,4 @@
+set selection-clipboard clipboard
+# include catppuccin-mocha
+include gruvbox
+set font "JetBrains Mono Nerd Font Bold 13"

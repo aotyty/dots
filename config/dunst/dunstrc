@@ -1,0 +1,55 @@
+[global]
+    # Основные настройки
+    font = JetBrains Mono 16
+    width = 300
+    height = 100
+    offset = 30x71
+    origin = top-center
+    padding = 10
+    horizontal_padding = 10
+    frame_width = 3
+    frame_color = "#ebdbb2"
+    corner_radius = 10
+    separator_height = 0
+    gap_size = 0
+    
+    # Цвета
+    background = "#282828"
+    foreground = "#ebdbb2"
+    
+    # Формат и поведение
+    format = "<b>%a</b>\n%s\n%b"
+    alignment = left
+    show_age_threshold = -1
+    ellipsize = middle
+    ignore_newline = no
+    progress_bar = true
+    progress_bar_height = 8
+    progress_bar_frame_width = 2
+    progress_bar_corner_radius = 5
+    indicate_hidden = yes
+    transparency = 30
+    shrink = no
+    monitor = 0
+    follow = none
+    geometry = "300x0-10+10"
+    indicate_hidden = yes
+    line_height = 2
+    markup = full
+    format = "<b>%a</b>\n%s\n%b"
+    sort = yes
+    idle_threshold = 0
+    
+[urgency_low]
+    # Наследует глобальные настройки
+    background = "#282828"
+    foreground = "#ebdbb2"
+    frame_color = "#ebdbb2"
+    timeout = 3
+
+[urgency_normal]
+    background = "#282828"
+    foreground = "#ebdbb2"
+    frame_color = "#ebdbb2"
+    timeout = 3
+

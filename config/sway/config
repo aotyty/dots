@@ -1,0 +1,9 @@
+input "type:touchpad" {
+	tap enabled
+}
+
+set $mod Mod4
+
+bindsym $mod+c exec alacritty
+bindsym $mod+q kill
+bindsym $mod+Shift+c reload
