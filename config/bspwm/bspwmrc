@@ -2,7 +2,13 @@
 
 pgrep -x sxhkd >/dev/null || sxhkd &
 setxkbmap -model pc105 -layout us,ru -option grp:caps_toggle &
-mako &
+xsetroot -cursor_name left_ptr
+unclutter --timeout 2 --jitter 5 --ignore-scrolling &
+./.fehbg &
+polybar &
+sxhkd &
+picom &
+dunst &
 
 bspc monitor -d I II III IV V VI VII VIII IX X
 bspc config focus_follows_pointer true
