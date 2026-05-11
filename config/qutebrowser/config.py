@@ -29,9 +29,9 @@ c.fonts.web.size.minimum = 12
 c.fonts.web.size.minimum_logical = 10
 catppuccin.setup(c, 'mocha', True)
 
-c.colors.hints.fg = '#1e1e2e'  # черный текст
-c.colors.hints.bg = '#f5c2e7'  # розовый фон (Catppuccin Mocha pink)
-c.colors.hints.match.fg = '#1e1e2e'  # черный текст для совпадающих хинтов
+c.colors.hints.fg = '#282828'  # черный текст
+c.colors.hints.bg = '#ebdbb2'  # розовый фон (Catppuccin Mocha pink)
+c.colors.hints.match.fg = '#282828'  # черный текст для совпадающих хинтов
 c.hints.radius = 10
 
 c.scrolling.smooth = True

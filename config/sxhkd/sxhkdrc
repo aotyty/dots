@@ -4,10 +4,10 @@
 
 # terminal emulator
 super + Return
-	alacritty
+	kitty
 
 super + b
-	firefox
+	qutebrowser
 
 super + t
 	Telegram

@@ -27,6 +27,6 @@ settings:
   content.javascript.enabled:
     global: true
   downloads.location.directory:
-    global: ~/downloads/
+    global: ~/Downloads
   zoom.default:
     global: 125%
