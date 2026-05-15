@@ -10,6 +10,7 @@
         "custom/logo",
         "cpu",
         "memory",
+        "ext/workspaces",
     ],
     "modules-center": [
         "clock"
@@ -151,7 +152,7 @@
 
     "custom/logo": {
         "interval": 1,
-        "format": "λ",
+        "format": "󰣇",
         "on-click": "rofi -show drun",
         "tooltip": false,
     },

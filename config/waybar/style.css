@@ -4,7 +4,7 @@
   min-height: 0;
   font-family: JetBrainsMono Nerd Font;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 window#waybar {
@@ -30,11 +30,11 @@ window#waybar.hidden {
   /* Fix weird spacing in materia (waybar #450) */
   box-shadow: inset 0 -3px transparent;
   /* Use box-shadow instead of border so the text isn't offset */
-  padding: 6px 18px;
+  padding: 6px 14px;
   margin: 8px 6px;
   border-radius: 10px;
-  background-color: #313244;
-  color: rgba(235, 219, 178, 0.8);
+  /* background-color: #3c3836; */
+  color: rgba(235, 209, 178, 0.8);
   /* border: 3px solid rgba(); */
   transition: all 0.1s ;
 }
@@ -43,18 +43,13 @@ window#waybar.hidden {
   margin: 8px 6px;
   padding: 6px 18px;
   color: #ebdbb2;
-  /* background-color: #313244; */
-  background-color: #3c3836;
-  /* border: 3px solid #313244; */
-  /* border: 3px solid rgba(); */
-  /* border-radius: 10px; */
+  /* background-color: #3c3836; */
 }
 
 #workspaces button:hover {
   box-shadow: inherit;
   text-shadow: inherit;
   color: #ebdbb2;
-  /* background-color: #313244; */
 }
 
 #workspaces button.urgent {
@@ -80,34 +75,34 @@ window#waybar.hidden {
   margin: 8px 4px;
   padding: 6px 14px;
   /* background-color: #313244; */
-  background-color: rgba(60, 56, 54, 0.8);
-  color: rgba(235, 219, 178, 0.8);
+  /* background-color: rgba(60, 56, 54, 0.8); */
+  color: rgba(235, 209, 178, 0.8);
 }
 
 #window {
   /* border: 3px solid #665c54; */
-  background-color: #3c3836;
+  /* background-color: #3c3836; */
   color: #ebdbb2;
   margin: 8px 4px;
 }
 
 #language {
   /* border: 3px solid #8ec07c; */
-  background-color: #3c3836;
+  /* background-color: #3c3836; */
   color: #ebdbb2;
 }
 
 #custom-blue {
   /* border: 3px solid #313244; */
   /* background-color: #313244; */
-  background-color: #3c3836;
+  /* background-color: #3c3836; */
   color: #ebdbb2;
   margin: 8px 6px;
   margin-left: 10px;
   padding: 6px 14px;
   font-family: JetBrainsMono Nerd Font;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /* #cpu { */
@@ -117,7 +112,7 @@ window#waybar.hidden {
 /*   padding: 4px 12px; */
 /*   font-family: JetBrainsMono Nerd Font; */
 /*   font-weight: bold; */
-/*   font-size: 22px; */
+/*   font-size: 20px; */
 /*   background-color: #313244; */
 /*   color: #ebdbb2; */
 /**/
@@ -130,21 +125,21 @@ window#waybar.hidden {
   /* border: 3px solid #313244; */
   /* background-color: #313244; */
   /* background-color: rgba(60, 56, 54, 0.8); */
-  /* color: #rgba(235, 219, 178, 0.8); */
+  /* color: #rgba(235, 209, 178, 0.8); */
 }
 
 
 #custom-logo {
   border-radius: 10px;
   margin: 8px 4px;
-  margin-left: 10px;
-  padding: 1px 16px;
+  margin-left: 8px;
+  padding: 0px 16px;
   font-family: JetBrainsMono Nerd Font;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 24px;
   /* background-color: #313244;  */
-  background-color: rgba(60, 56, 54, 0.8);
-  color: rgba(235, 219, 178, 0.8);
+  /* background-color: rgba(60, 56, 54, 0.8); */
+  color: rgba(235, 209, 178, 0.8);
 }
 
 #memory {
@@ -162,7 +157,7 @@ window#waybar.hidden {
   /* border: 3px solid #98971a; */
   font-family: JetBrainsMono Nerd Font;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
   /* background-color: #313244; */
   /* color: #ebdbb2; */
 }
@@ -175,7 +170,7 @@ window#waybar.hidden {
   /* border: 3px solid #fe8019; */
   font-family: JetBrainsMono Nerd Font;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 #battery.charging {
@@ -184,7 +179,7 @@ window#waybar.hidden {
   color: #1e1e2e;
   font-family: JetBrainsMono Nerd Font;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 #backlight {
@@ -201,7 +196,7 @@ window#waybar.hidden {
   /* color: #ebdbb2; */
   font-family: JetBrainsMono Nerd Font;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 #network {
@@ -210,7 +205,7 @@ window#waybar.hidden {
   /* border: 3px solid #cc241d; */
   /* background-color: #313244; */
   /* background-color: #3c3836; */
-  font-size: 18px;
+  font-size: 20px;
 }
 
 #clock {
@@ -220,12 +215,12 @@ window#waybar.hidden {
   /* background-color: #313244; */
   /* background-color: #3c3836; */
   /* color: #ebdbb2; */
-  font-size: 18px;
+  font-size: 20px;
 }
 
 #custom-power {
   /* background-color: #313244; */
-  background-color: #3c3836;
+  /* background-color: #3c3836; */
   border-radius: 10px;
   /* border: 3px solid #313244; */
   /* border-radius: 0px; */
@@ -235,14 +230,14 @@ window#waybar.hidden {
   /* color: #ebdbb2; */
   font-family: JetBrainsMono Nerd Font;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 24px;
 
 }
 
 tooltip {
   border-radius: 10px;
   padding: 15px;
-  background-color: rgba(30, 30, 46, 0.60);
+  /* background-color: rgba(30, 30, 46, 0.60); */
   color: #ebdbb2;
   border: 3px solid #ebdbb2;
 }
